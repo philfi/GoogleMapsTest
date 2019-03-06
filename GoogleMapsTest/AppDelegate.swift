@@ -6,6 +6,7 @@
 //  Copyright © 2019 Philip Hubert. All rights reserved.
 //
 
+import GoogleMaps
 import UIKit
 
 @UIApplicationMain
@@ -13,9 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyApGs9l3kdrZEI3JLk37IIKoTRXzqTQP_M")
+
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = .white
+        window?.rootViewController = ViewController()
+        window?.makeKeyAndVisible()
         return true
     }
 

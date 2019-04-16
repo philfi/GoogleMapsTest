@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A05C7C82A0B8A421F46196A /* Pods_GoogleMapsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8059BE25D7E8B9D4C6A7A14 /* Pods_GoogleMapsTest.framework */; };
+		99182FB922663427001C2D78 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99182FB822663427001C2D78 /* AnotherViewController.swift */; };
 		993CD8C522303401005216FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993CD8C422303401005216FE /* AppDelegate.swift */; };
 		993CD8C722303401005216FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993CD8C622303401005216FE /* ViewController.swift */; };
 		993CD8CC22303403005216FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993CD8CB22303403005216FE /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99182FB822663427001C2D78 /* AnotherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
 		993CD8C122303401005216FE /* GoogleMapsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		993CD8C422303401005216FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		993CD8C622303401005216FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			children = (
 				993CD8C422303401005216FE /* AppDelegate.swift */,
 				993CD8C622303401005216FE /* ViewController.swift */,
+				99182FB822663427001C2D78 /* AnotherViewController.swift */,
 				993CD8CB22303403005216FE /* Assets.xcassets */,
 				993CD8CD22303403005216FE /* LaunchScreen.storyboard */,
 				993CD8D022303403005216FE /* Info.plist */,
@@ -206,6 +209,7 @@
 			files = (
 				993CD8C722303401005216FE /* ViewController.swift in Sources */,
 				993CD8C522303401005216FE /* AppDelegate.swift in Sources */,
+				99182FB922663427001C2D78 /* AnotherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
